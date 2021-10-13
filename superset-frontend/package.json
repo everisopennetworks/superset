@@ -95,6 +95,7 @@
     "@superset-ui/plugin-chart-echarts": "^0.18.2",
     "@superset-ui/plugin-chart-pivot-table": "^0.18.2",
     "@superset-ui/plugin-chart-table": "^0.18.2",
+    "@superset-ui/plugin-chart-action-table": "file:./plugins/plugin-chart-action-table",
     "@superset-ui/plugin-chart-word-cloud": "^0.18.2",
     "@superset-ui/preset-chart-xy": "^0.18.2",
     "@vx/responsive": "^0.0.195",
