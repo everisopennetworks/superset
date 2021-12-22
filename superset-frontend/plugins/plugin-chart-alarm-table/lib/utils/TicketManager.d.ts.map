@@ -1,0 +1,1 @@
+{"version":3,"file":"TicketManager.d.ts","sourceRoot":"","sources":["../../src/utils/TicketManager.ts"],"names":[],"mappings":"AAGA,qBAAa,aAAa;IACxB,eAAe,SAAkE;IAEjF,QAAQ,SACyK;IAEjL,kBAAkB,SAAiE;IAEnF,OAAO,CAAC,YAAY,CAGlB;IAEF,YAAY,kDAAyD,GAAG,sBA8BtE;IAEF,gBAAgB,WAAkB,GAAG,UAAU,GAAG,sBAahD;CACH;AAED,QAAA,MAAM,aAAa,eAAsB,CAAC;AAC1C,OAAO,EAAE,aAAa,EAAE,CAAC"}

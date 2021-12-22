@@ -1,0 +1,16 @@
+#FROM ghcr.io/everisopennetworks/superset:1.3.0-patched
+FROM superset/superset-alarm:1.0
+
+USER root
+
+RUN pip install pyignite
+RUN pip install git+https://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@github.com/everisopennetworks/sqlalchemy-ignite.git
+
+COPY ignite.py /app/superset/db_engine_specs/
+#COPY ../sqlalchemy-ignite /app
+#RUN cd /app/sqlalchemy-ignite \
+#    && pip install .
+
+    
+USER superset
+
